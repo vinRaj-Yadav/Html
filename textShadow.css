@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #000;
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    display: grid;
+    place-items: center;
+}
+span
+{
+    text-transform: uppercase;
+    text-shadow: 0 -150px 0 orange,0px 150px 0 green;
+}
