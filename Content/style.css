@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* width: 100vw; */
+    height: 100vh;
+     
+    
+}
+#contaner{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid grey; */
+}
+
+.D{
+    width: 100%;
+    height: 100px;
+    background-color: mediumorchid;
+    display: grid;
+    place-items: center;
+    /* border: 2px solid black; */
+
+}
+.E{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.R{
+    width: 50%;
+    height: 100%;
+    background-color: aqua;
+    display: grid;
+    place-items: center;
+    /* border: 2px solid black; */
+background-image: url('https://cdn.pixabay.com/photo/2022/08/01/12/36/city-7358078_640.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+color: aliceblue;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+padding: 20px 40px;
+
+
+}
+.R1{
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    display: grid;
+    place-items: center;
+    /* border: 2px solid black; */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRhAKcSuGsE3cE0tk5IQ53GTiIRq4EaBIcenCK0yILgofZQLPKDfvB94dWZA&shttps://t4.ftcdn.net/jpg/04/69/84/95/360_F_469849595_ErpSb7WpSgDeWX0H4ozK6c5xAUbwXH4t.jpg');
+    background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.R2{
+    width: 300px;
+    height:300px;
+    /* border:2px solid black; */
+    background-color: brown;
+    border-radius: 50%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShAQjzRaiXbIhBQKf4rD2eGaK7WuNn7vfUKg&s');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border-color: rgb(34,56,78); */
+    box-shadow: 0px 0px 40px 10px white ;
+}
